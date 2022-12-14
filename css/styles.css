@@ -11,6 +11,10 @@ body {
   font-weight: 400;
 }
 
+.container {
+  display: flex;
+}
+
 .nav-structure {
   color: var(--main-color);
 
