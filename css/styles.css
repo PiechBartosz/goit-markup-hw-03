@@ -9,20 +9,28 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   font-weight: 400;
+  width: 1600 px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 /* part of homework 3 */
 .container {
-  max-width: 1200px;
-  margin: 0;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .display-button {
   display: flex;
   gap: 8px;
+  justify-content: center;
 }
 .display-images {
   display: flex;
@@ -32,9 +40,9 @@ body {
 .display-wrap {
   flex-wrap: wrap;
 }
-.image-seize {
+/* .image-seize {
   width: calc((100% - 60px) / 3);
-}
+} */
 .flex-nav-container {
   display: flex;
   justify-content: space-between;
@@ -44,8 +52,8 @@ body {
 .header-style {
   border-bottom: 1px solid #ececec;
   align-items: center;
-  height: 80px;
-  margin-left: 0px;
+  /* height: 80px;
+  margin-left: 0px; */
 }
 
 .display-form-general {
@@ -63,10 +71,10 @@ body {
   margin-left: 453px;
 }
 .logo-position {
-  position: absolute;
   width: 145px;
-  margin-left: 215px;
-  top: 24px;
+  justify-content: center;
+  /* margin-left: 215px;
+  top: 24px; */
 }
 
 .nav-display-form li {
@@ -83,7 +91,6 @@ body {
   margin-left: 1078px;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
   width: 135px;
   left: 1078px;
   top: 32px;
