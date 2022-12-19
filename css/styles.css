@@ -27,6 +27,9 @@ body {
   padding: 94px 0;
 }
 
+.display-center {
+  text-align: center;
+}
 .display-button {
   display: flex;
   gap: 8px;
@@ -40,9 +43,7 @@ body {
 .display-wrap {
   flex-wrap: wrap;
 }
-/* .image-seize {
-  width: calc((100% - 60px) / 3);
-} */
+
 .flex-nav-container {
   display: flex;
   justify-content: space-between;
@@ -52,8 +53,6 @@ body {
 .header-style {
   border-bottom: 1px solid #ececec;
   align-items: center;
-  /* height: 80px;
-  margin-left: 0px; */
 }
 
 .display-form-general {
@@ -65,13 +64,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 453px;
-  width: 53px;
-  top: 32px;
-  margin-left: 453px;
+  gap: 46px;
 }
+
 .logo-position {
-  width: 145px;
+  /* width: 145px; */
   justify-content: center;
   /* margin-left: 215px;
   top: 24px; */
@@ -81,24 +78,20 @@ body {
   margin: 0px 46px;
   align-items: center;
   padding: 0;
-  width: 53px;
-  top: 32px;
-  left: 453px;
 }
 
 .display-form-contacts {
   display: flex;
-  margin-left: 1078px;
   align-items: center;
-  justify-content: space-between;
-  width: 135px;
-  left: 1078px;
-  top: 32px;
+  gap: 50px;
 }
 
 .inner {
   display: flex;
   align-items: center;
+}
+.background-2 {
+  background-color: #f5f4fa;
 }
 
 /* end part of homework 3 */
