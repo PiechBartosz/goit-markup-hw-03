@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/* part of homework 3 */
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -25,6 +25,10 @@ body {
 
 .section {
   padding: 94px 0;
+}
+
+h2 {
+  margin: 50px;
 }
 
 .display-center {
@@ -55,11 +59,6 @@ body {
   align-items: center;
 }
 
-.display-form-general {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .nav-display-form {
   display: flex;
   justify-content: space-between;
@@ -68,10 +67,9 @@ body {
 }
 
 .logo-position {
-  /* width: 145px; */
   justify-content: center;
-  /* margin-left: 215px;
-  top: 24px; */
+  padding-bottom: 25px;
+  padding-top: 24px;
 }
 
 .nav-display-form li {
@@ -89,12 +87,13 @@ body {
 .inner {
   display: flex;
   align-items: center;
+  gap: 93px;
 }
+
 .background-2 {
   background-color: #f5f4fa;
 }
 
-/* end part of homework 3 */
 .nav-structure {
   color: var(--main-color);
   font-weight: 500;
@@ -117,6 +116,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-color);
   text-decoration-line: none;
+  padding-top: 10px;
 }
 .third-structure {
   font-weight: 700;
@@ -184,6 +184,8 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .list-style {
   list-style: none;
@@ -231,7 +233,12 @@ body {
   line-height: 1.875;
   cursor: pointer;
   border: none;
+  margin-top: 30px;
 }
 .address-style {
   font-style: normal;
+}
+
+.footer-padding {
+  padding: 60px 1138px 60px 215px;
 }
