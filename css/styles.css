@@ -242,3 +242,7 @@ h2 {
 .footer-padding {
   padding: 60px 1138px 60px 215px;
 }
+
+.background-3 {
+  background-color: var(--third-color);
+}
