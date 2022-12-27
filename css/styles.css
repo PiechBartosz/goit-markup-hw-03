@@ -5,6 +5,7 @@
   --third-color: #ffffff;
   --fourth-color: rgba(255, 255, 255, 0.6);
   --fifth-color: #2196f3;
+  --sixth-color: #e5e5e5;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -30,7 +31,11 @@ body {
 h2 {
   margin: 50px;
 }
-
+.background-header {
+  text-align: center;
+  padding: 200px 0;
+  background-color: var(--background-color);
+}
 .display-center {
   text-align: center;
 }
@@ -39,6 +44,7 @@ h2 {
   gap: 8px;
   justify-content: center;
 }
+
 .display-images {
   display: flex;
   gap: 30px;
@@ -48,40 +54,48 @@ h2 {
   flex-wrap: wrap;
 }
 
+.a {
+  margin-left: 93px;
+}
 .flex-nav-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
 .header-style {
+  /* width: 1600px; */
   border-bottom: 1px solid #ececec;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .nav-display-form {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  gap: 46px;
+  /* gap: 46px; */
+}
+.header-nav-list {
+  margin-left: 93px;
 }
 
 .logo-position {
-  justify-content: center;
+  /* justify-content: center; */
+
   padding-bottom: 25px;
   padding-top: 24px;
 }
 
 .nav-display-form li {
-  margin: 0px 46px;
-  align-items: center;
-  padding: 0;
+  margin: 0;
+  margin-left: 93px;
 }
 
 .display-form-contacts {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin-left: auto;
 }
 
 .inner {
@@ -101,10 +115,13 @@ h2 {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration-line: none;
+  padding: 32px 0;
 }
+
 .nav-structure:hover {
   color: var(--fifth-color);
 }
+
 .nav-structure:focus {
   color: var(--fifth-color);
 }
@@ -116,7 +133,7 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--second-color);
   text-decoration-line: none;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 .third-structure {
   font-weight: 700;
@@ -133,6 +150,9 @@ h2 {
   color: var(--second-color);
 }
 
+.paragraph-structure {
+  padding-bottom: 30px;
+}
 .background {
   background-color: var(--background-color);
 }
@@ -156,10 +176,11 @@ h2 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+  width: 696px;
   color: var(--third-color);
+  text-align: center;
+  margin: 0 auto;
 }
 .seventh-structure {
   font-style: normal;
@@ -167,8 +188,9 @@ h2 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: var(--main-color);
+  margin-bottom: 10px;
 }
 
 .eighth-structure {
@@ -187,6 +209,15 @@ h2 {
   padding-top: 30px;
   padding-bottom: 10px;
 }
+
+.ninth-structure-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
 .list-style {
   list-style: none;
 }
@@ -205,6 +236,7 @@ h2 {
 }
 .footer-logo {
   color: var(--third-color);
+  padding-top: 60px;
 }
 .hand:hover {
   cursor: pointer;
@@ -217,6 +249,10 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--main-color);
   cursor: pointer;
+  /* padding-top: 6pxx;
+  padding-bottom: 22px;
+  padding-left: 6px;
+  padding-right: 22px; */
 }
 .button-style:hover,
 .button-style:focus,
@@ -234,15 +270,36 @@ h2 {
   cursor: pointer;
   border: none;
   margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
 }
 .address-style {
   font-style: normal;
 }
 
 .footer-padding {
-  padding: 60px 1138px 60px 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address-padding {
+  margin-top: 20px;
 }
 
 .background-3 {
   background-color: var(--third-color);
+}
+
+.nav-contact-color {
+  color: var(--second-color);
+}
+
+.lorem {
+  padding-bottom: 0;
+}
+
+.marginl {
+  margin-top: 9px;
 }
