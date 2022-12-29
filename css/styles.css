@@ -9,8 +9,8 @@
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  font-weight: 400;
-  width: 1600 px;
+
+  width: 1600px;
   margin: 0 auto;
 }
 * {
@@ -59,7 +59,6 @@ h2 {
 }
 .flex-nav-container {
   display: flex;
-
   align-items: center;
 }
 
@@ -69,8 +68,9 @@ h2 {
 
 .nav-display-form {
   display: flex;
-
   align-items: center;
+  gap: 50px;
+  margin-left: 93px;
 }
 .header-nav-list {
   margin-left: 93px;
@@ -83,7 +83,6 @@ h2 {
 
 .nav-display-form li {
   margin: 0;
-  margin-left: 93px;
 }
 
 .display-form-contacts {
@@ -122,7 +121,6 @@ h2 {
 }
 
 .second-structure {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -141,7 +139,6 @@ h2 {
 }
 
 .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -157,7 +154,6 @@ h2 {
 }
 
 .fourth-structure {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -182,7 +178,6 @@ h2 {
   margin: 0 auto;
 }
 .seventh-structure {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -193,7 +188,6 @@ h2 {
 }
 
 .eighth-structure {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -249,13 +243,11 @@ h2 {
   color: var(--main-color);
   cursor: pointer;
   width: 121px;
-  margin-top: 6px;
-  margin-bottom: 22px;
-  margin-left: 6px;
-  margin-right: 22px;
+  margin: 6px 22px;
   padding: 8px;
-  padding-left: 8;
-  padding-right: 8;
+  border-radius: 4px;
+  background: #f5f4fa;
+  border: none;
 }
 .button-style:hover,
 .button-style:focus,
@@ -277,6 +269,8 @@ h2 {
   padding-bottom: 10px;
   padding-left: 42px;
   padding-right: 41px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .address-style {
   font-style: normal;
@@ -308,10 +302,22 @@ h2 {
 }
 
 .border-images {
-  border: 1px solid #eeeeee;
+  font-size: 0;
   width: calc((100% - 60px) / 3);
 }
 
-.padding-nasz-zespol {
-  padding: 0;
+.index-img-style {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.img-portfolio-border {
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.p-portfolio-border {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
